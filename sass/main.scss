@@ -1,0 +1,16 @@
+@import './utils/variables';
+
+@import './section/header';
+@import './section/hero.scss';
+@import './section/features';
+@import './section/work';
+@import './section/ourteam';
+@import './section/client';
+@import './section/footer';
+
+
+@import '../sass/portfolio/filter';
+@import '../sass/portfolio/examples';
+
+
+@import '../sass/modal/modal';
