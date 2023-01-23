@@ -101,7 +101,7 @@ img {
   margin-right: 93px;
 }
 .logo span {
-  color: var(--logo);
+  color: #000000;
   padding-top: 24px;
   padding-bottom: 25px;
   font-family: "Raleway";
