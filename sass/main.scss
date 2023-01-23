@@ -1,16 +1,17 @@
+@import './utils/utils';
 @import './utils/variables';
 
-@import './section/header';
-@import './section/hero.scss';
-@import './section/features';
-@import './section/work';
-@import './section/ourteam';
-@import './section/client';
-@import './section/footer';
+@import './components/section/header';
+@import './components/section/hero.scss';
+@import './components/section/features';
+@import './components/section/work';
+@import './components/section/ourteam';
+@import './components/section/client';
+@import './components/section/footer';
 
 
-@import '../sass/portfolio/filter';
-@import '../sass/portfolio/examples';
+@import './components/portfolio/filter';
+@import './components/portfolio/examples';
 
 
-@import '../sass/modal/modal';
+@import './components/modal/modal';

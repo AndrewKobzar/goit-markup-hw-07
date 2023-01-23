@@ -2,7 +2,7 @@
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
   }
   
   .client-list {
@@ -22,10 +22,10 @@
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
-        border: 1px solid var(--hover-text-color);
+        border: 1px solid $hover-text-color;
       }
     &:focus .link {
-    fill: var(--hover-text-color);
+    fill: $hover-text-color;
       }
     }
   
@@ -37,5 +37,5 @@
   
   .client-item:hover .link,
   .client-item:focus .link {
-    fill: var(--hover-text-color);
+    fill: $hover-text-color;
   }

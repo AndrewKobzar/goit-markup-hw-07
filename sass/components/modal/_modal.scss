@@ -24,7 +24,7 @@ button {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -46,7 +46,7 @@ button {
   justify-content: center;
   cursor: pointer;
   &:hover .icon-modal {
-    fill: var(--hover-text-color)
+    fill: $hover-text-color;
     }
 }
 .icon-modal{
@@ -115,7 +115,7 @@ button {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--secondary-color);
+  color: $secondary-color;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
@@ -151,7 +151,7 @@ button {
     content: " ";
     width: 16px;
     height: 15px;
-    border: 2px solid var(--primary-text-color);
+    border: 2px solid $primary-text-color;
     border-radius: 2px;
     margin-right: 8px;
   }
@@ -187,10 +187,10 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   &:focus {
-    border-color: var(--hover-text-color);
+    border-color: $hover-text-color;
   }
   &:focus + .icon-mod {
-    fill: var(--hover-text-color);
+    fill: $hover-text-color
   }
   
 }
@@ -201,5 +201,5 @@ button {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--title-text-color);
+  color: v$title-text-color
 }

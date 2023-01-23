@@ -4,7 +4,7 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: $title-text-color;
   }
   
   .examples {
@@ -21,7 +21,7 @@
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
-        color: var(--primary-text-color);
+        color: $primary-text-color;
         margin-bottom: 4px;
       }
   }
@@ -66,6 +66,6 @@
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
-    color: var(--secondary-color);
+    color: $secondary-color;
   }
   
